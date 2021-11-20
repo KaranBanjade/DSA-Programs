@@ -121,6 +121,26 @@ cout << "1.++++++++++\n";
         i++;
         cout<<"\n";
     }
+/*
+    AAAAA
+    BBBBB
+    CCCCC
+    DDDDD
+    EEEEE
+*/
+    cout << "7.++++++++++\n";
+    char c = 'A';
+    char d;
+    char e = 'A'+ 5;
+    while(c<e){
+        d = 'A';
+        while(d < e){
+            cout<<c;
+            d++;
+        }
+        cout<<"\n";
+        c++;
+    }
 
 return 0;
 }
