@@ -159,6 +159,24 @@ cout << "1.++++++++++\n";
         cout<<"\n";
         c++;
     }
-
+/*
+    ABCDE
+    FGHIJ
+    KLMNO
+    PQRST
+    UVWXY
+*/
+    cout << "9.++++++++++\n";
+    c = 'A';
+    char f = 'A';
+    while(c<e){
+        d = 'A';
+        while(d < e){
+            cout<<d ;
+            d++;
+        }
+        cout<<"\n";
+        c++;
+    }
 return 0;
 }
