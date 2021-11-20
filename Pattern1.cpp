@@ -141,6 +141,24 @@ cout << "1.++++++++++\n";
         cout<<"\n";
         c++;
     }
+/*
+    ABCDE
+    ABCDE
+    ABCDE
+    ABCDE
+    ABCDE
+*/
+    cout << "8.++++++++++\n";
+    c = 'A';
+    while(c<e){
+        d = 'A';
+        while(d < e){
+            cout<<d;
+            d++;
+        }
+        cout<<"\n";
+        c++;
+    }
 
 return 0;
 }
