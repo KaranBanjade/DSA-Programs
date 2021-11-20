@@ -61,6 +61,26 @@ cout << "1.++++++++++\n";
         i++;
         cout << "\n";
     }
-    
+    cout << "4.++++++++++\n";
+/*
+   1
+   23
+   456
+   78910
+*/
+    i = 1;
+    int count = 1;
+    while (i < 5)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << count++;
+            j++;
+        }
+        i++;
+        cout << "\n";
+    }
+
 return 0;
 }
