@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let string =  "";
+    const achievementArray = ["attevents", "bookspublished", "conferenceproceedings","journals","projects","seminars","studentactivities"];
+        for(achievement of achievementArray){
+            string += `UPDATE ${achievement} 
+            SET cid = 
+            (SELECT cid from users where users.id = ${achievement}.uid)
+            WHERE cid = 0;
+            `
+        }
+        console.log(string);
+</script>
+</html>

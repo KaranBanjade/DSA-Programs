@@ -1,14 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     long nums;
-    cin>>nums;
+    cin >> nums;
     int sum = 0, prod = 1;
-    while (nums!=0)
+    while (nums != 0)
     {
-        sum += nums%10;
-        prod *= nums%10;
-        nums/=10;
+        sum += nums % 10;
+        prod *= nums % 10;
+        nums /= 10;
     }
-    cout<<prod-sum;
+    cout << prod - sum;
 }

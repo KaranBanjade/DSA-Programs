@@ -1,72 +1,83 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int size;
-    cin>>size;
+    cin >> size;
     int i = 0;
     int j = 0;
-    while(i<size){
-        j=0;
-        while(j<size - i){
-            cout<<" ";
+    while (i < size)
+    {
+        j = 0;
+        while (j < size - i)
+        {
+            cout << " ";
             j++;
         }
         j = 0;
-        while(j <= i){
-            cout<<"*";
+        while (j <= i)
+        {
+            cout << "*";
             j++;
         }
         j = 0;
-        while(j<i){
-            cout<<"*";
+        while (j < i)
+        {
+            cout << "*";
             j++;
         }
-        cout<<"\n";
+        cout << "\n";
         i++;
     }
-    cout<<"\n*****************\n";
+    cout << "\n*****************\n";
     i = 0;
     j = 0;
-    while(i<size){
-        j=0;
-        while(j<size - i){
-            cout<<" ";
+    while (i < size)
+    {
+        j = 0;
+        while (j < size - i)
+        {
+            cout << " ";
             j++;
         }
         j = 0;
-        while(j <= i){
-            cout<<j+1;
+        while (j <= i)
+        {
+            cout << j + 1;
             j++;
         }
         j = 0;
-        while(j<i){
-            cout<<i-j;
+        while (j < i)
+        {
+            cout << i - j;
             j++;
         }
-        cout<<"\n";
+        cout << "\n";
         i++;
     }
-      i = 0;
+    i = 0;
     j = 0;
-    while(i<size){
-        j=0;
-        while(j<size - i){
-            cout<<j+1;
+    while (i < size)
+    {
+        j = 0;
+        while (j < size - i)
+        {
+            cout << j + 1;
             j++;
         }
         j = 0;
-        while(j <= i){
-            cout<<"*";
+        while (j <= i)
+        {
+            cout << "*";
             j++;
         }
         j = 0;
-        while(j<i){
-            cout<<"*";
+        while (j < i)
+        {
+            cout << "*";
             j++;
         }
-        cout<<"\n";
+        cout << "\n";
         i++;
     }
-
-
 }
